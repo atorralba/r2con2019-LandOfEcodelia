@@ -9,7 +9,7 @@
 ## Compilation
 
 ~~~
-go build && strip -s ctf
+go build -ldflags "-s -w"
 ~~~
 
 ## Test solution
